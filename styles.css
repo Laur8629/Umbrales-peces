@@ -1,0 +1,12 @@
+body { font-family: Arial, sans-serif; text-align: center; }
+#tabs { margin-bottom: 20px; }
+.tab-button {
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    display: inline-block;
+    background-color: #f1f1f1;
+    margin: 2px;
+}
+.tab-button.active { background-color: #ddd; }
+#content { padding: 20px; border: 1px solid #ddd; min-height: 300px; }
